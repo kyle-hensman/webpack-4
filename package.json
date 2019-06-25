@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
+    "start:hmr": "webpack --config dev-server.js",
     "build": "webpack",
     "build:config": "npx webpack --config webpack.config.js"
   },
